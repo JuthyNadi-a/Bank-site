@@ -7,6 +7,6 @@ document.getElementById('login-submit').addEventListener('click', function () {
     const userPassword = passwordField.value;
     // check email and password
     if (userEmail == 'admin@abc.com' && userPassword == 'secret') {
-        window.location.href = 'banking.html';
+        window.location.href = 'index.html';
     }
 });
